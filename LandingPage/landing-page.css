@@ -7,7 +7,8 @@
 }
 
 #footer-section {
-    border-top: 1px #ededed solid
+    border-top: 1px #ededed solid;
+    margin-top: 30px;
 }
 
 #footer-section .content img {
