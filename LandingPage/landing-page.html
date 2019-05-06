@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="landing-page.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style></style>
+</head>
+
+<body>
+    <div id="landing_page_container" class="container-fluid user-register-container">
+        <a class="btn up" ng-click="goto({'type':'inner'})">Login</a>
+        <div class="first-page hidden-md hidden-sm hidden-xs">
+
+            <!-- SECTION ONE  -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-7 text-left left-MARGIN">
+                        <h1 style="color: black">HER ONLINE THEATER <br> FOR MOVIES FOR, BY, AND ABOUT
+                            WOMEN <br> <span class="text-main-color">We Believe</span></h1>
+                        <p style="color: black; line-height: 40px" class="gray">
+                            Stories that speak to women and for women deserve Equal Access and Support. <br>
+                            The many voices of Women Filmmakers need a special home. <br>
+                            HERFLIX sees content through a lens that HER point of view, <br>
+                            consciousness, and intuition.
+                        </p>
+                        <a class="btn p-below" ng-click="gotoRegister()">Join Now!</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- SECTION TWO  -->
+        <div id="mid-section" class="container-fluid">
+            <div style="color:white" class="row content">
+                <div class="col-xs-6">
+                    <h1>WE'LL KEEP YOU CONNECTED WITH:</h1>
+                    <p>Special free screenings</p>
+                    <p>Film Festival women's event</p>
+                    <p>HERFLIX recommendations of what's hot <br>
+                        in Women's Media - Rated on the Bechdel <br> Scale.</p>
+
+                </div>
+                <div class="col-xs-4 pull-right push-down">
+                    <p> <img src="../images/layout2/landing-page-images/no-credit-card.svg" alt="">No Subscriptions
+                    </p>
+                    <p> <img src="../images/layout2/landing-page-images/Rent.svg">Rent Movies</p>
+                    <p> <img src="../images/layout2/landing-page-images/Sponsored.svg"> Stream Sponsored Content</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARDS SECTION  -->
+
+        <div id="cards-section" class="container-fluid">
+            <div class="content row">
+                <div class="col-xs-4">
+                    <img src="../images/layout2/landing-page-images/1.png" alt="">
+                    <h1>WHAT'S YOUR <br> MOOD?</h1>
+                    <p>Films for all your feelings</p>
+                </div>
+                <div class="col-xs-4">
+                    <img src="../images/layout2/landing-page-images/2.png" alt="">
+                    <h1>SHE <br>DIRECTS</h1>
+                    <p>Shining a spotlight on women filmmakers</p>
+                </div>
+                <div class="col-xs-4">
+                    <img src="../images/layout2/landing-page-images/3.png" alt="">
+                    <h1>HER <br>WORLD?</h1>
+                    <p>Go beyond boarders and <br> plug into the ultimate <br> sisterhood</p>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer-section">
+            <div class="content">
+                <img src="../images/layout2/landing-page-images/Logo.png" alt="">
+                <h4>
+                    The WIFTI <br>
+                    Channel
+                </h4>
+            </div>
+        </footer>
+        <div class="first-page hidden-lg">
+            <div class="container-fluid">
+                <!-- <div class="row">
+                    <div class="col-xs-5 text-right col-xs-offset-6 loginBtnSm">
+                        <a class="btn up" ng-click="goto({'type':'inner'})">ingresar</a>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div
+                        class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 text-center padding-top-11VH">
+                        <div class="text-center">
+                            <img class="header-logo-img" src="app/images/layout2/mega_play_logo.svg">
+                            <h1>Mega va contigo</h1>
+                            <!-- <h2 class="margin-left-10PX margin-top--8PX">Donde querás y cuando querás</h2> -->
+                            <!-- <h3 class="margin-left-10PX">Contenido local de todo tipo:</h3> -->
+                            <p class="gray margin-left-10PX">
+                                Disfruta teleseries, reality shows, noticias y lo mejor de nuestra programación desde
+                                cualquier dispositivo, en
+                                vivo o cuando quieras.
+                            </p>
+                            <!-- <p class="special margin-left-10PX">¿Querés Más?</p> -->
+                        </div>
+                        <div class="col-xs-12 btns-container">
+                            <a class="btn up" ng-click="goto({'type':'inner'})">ingresar</a>
+                            <a class="btn margin-left-10PX" ng-click="gotoRegister()">Regístrate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+<!-- <script type="text/javascript" src="app/layout2/components/UserLogin/Browser/LandingPage/landing-page.controller.min.js"></script> -->

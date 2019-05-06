@@ -1,0 +1,475 @@
+
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url('fonts/AvenirNext-Heavy.ttf');
+}
+@font-face {
+    font-family: Avenir-Medium;
+    src: url('fonts/AvenirNext-Medium.ttf');
+}
+@font-face {
+    font-family: Avenir-DemiBold;
+    src: url('fonts/AvenirNext-DemiBold.ttf');
+}
+@font-face {
+    font-family: Avenir-Regular;
+    src: url('fonts/AvenirNext-Regular.ttf');
+}
+@font-face {
+    font-family: Avenir-UltraLight;
+    src: url('fonts/AvenirNext-UltraLight.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#splash-screen {
+    background: #ffffff;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 101%;
+    /*background: url('app/images/layout2/mega_bg.png');*/
+    background-size: 100% 100%;
+}
+
+.splash{
+    height: 100% !important;
+    /* background-image:url('app/images/layout2/landing-page-images/splash.png') !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 50% 50% !important; */
+}
+#splash-screen div {
+    width: 100%;
+    height: 100%;
+    background: url(app/images/layout2/herflix-logo.png) no-repeat center center;
+    background-size: 15% auto;
+}
+
+
+
+#nav-header {
+    position: fixed;
+    visibility: hidden;
+    background: rgba(0,0,0,0);
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    z-index: 4;
+
+    /*-moz-transition: all 500ms;*/
+    /*-ms-transition: all 500ms;*/
+    /*-webkit-transition: all 500ms;*/
+    /*-o-transition: all 500ms;*/
+    /*transition: all 500ms;*/
+
+}
+#header{
+    height: 100%;
+}
+.loader {
+    visibility: hidden;
+    z-index: 5;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+}
+
+.ball-scale-multiple>div {
+    background-color: #0097ee !important;
+    width: 6vw !important;
+    height: 6vw !important;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+.hide {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+
+
+#IndexSidemenu{
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 0;
+
+}
+
+#IndexpageContainer{
+    position: absolute;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+
+}
+
+#index-page-sidemenu-opended{
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index:10;
+    background: rgba(0,0,0,0.6);
+
+}
+.index-page-sidemenu-opended-active{
+    display: block !important;
+}
+#general_loader{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+#general_loader img{
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 45%;
+    left: 48%;
+    z-index: 50;
+}
+
+/* modal update styles */
+.modal-container{
+    top: 30% !important;
+    width: 30% !important;
+}
+.credit-card-modal-container{
+    top: 10% !important;
+}
+
+.modal-content-wrapper{
+    position: relative !important;
+    background: white !important;
+    /* border-top-left-radius: 4vw !important;
+    border-bottom-right-radius: 4vw !important; */
+}
+.modal-content-wrapper img{
+    position: absolute !important;
+    width: 30% !important;
+    height: auto !important;
+    left: 35% !important;
+    z-index: 1 !important;
+    top: -5vw !important;
+}
+.modal-content-body{
+    padding-top: 16% !important;
+    padding-left: 7% !important;
+
+}
+.modal-content-body-rating{
+    padding-top: 19% !important;
+    margin-bottom: 8% !important;
+    text-align: center;
+}
+.modal-content-body-rating .br-theme-bootstrap-stars .br-widget a{
+    font-size: 2.2vw !important;
+}
+.modal-content-body p{
+    font-size: 1.1vw !important;
+    color: #000000 !important;
+    font-family: Avenir-Regular !important;
+    font-weight: 300 !important;
+}
+.modal-content-footer{
+    text-align: center !important;
+    border: none !important;
+}
+.modal-content-footer button{
+    width: 40% !important;
+    font-size: 1vw !important;
+    font-family: Avenir-Medium !important;
+    font-weight: 300 !important;
+    border: none !important;
+    border-radius: 0.3vw;
+    /* border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw; */
+    outline: none !important;
+}
+.modal-content-footer button:hover{
+    transform: scale(1.02);
+    transition: transform 50ms linear;
+}
+
+.modal-content-footer-ok-button{
+    background: #996699 !important;
+    color: #ffffff !important;
+}
+.modal-content-footer-cancel-button{
+    color: #fff !important;
+    background: rgba(26,26,26) !important;
+}
+
+/* modal user */
+.modal-content-body-row-user-id{
+    text-align: left;
+    margin-bottom: 5%;
+}
+.credit-card-row-inline{
+    display: inline-block;
+    width: 49%;
+}
+.modal-content-body-row-user-id label{
+    font-size: 1vw;
+    font-family: Avenir-Regular;
+    font-weight: 100;
+    color: #ffffff;
+}
+.modal-content-body-row-user-id input{
+    width: 100%;
+    /* border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    border: none;
+    padding: 0.3vw;
+    padding-left: 2vw;
+    outline: none !important;
+    font-size: 1vw;
+    font-family: Avenir-Regular;
+    font-weight: 100;
+}
+.modal-content-body-user-id{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 19% !important;
+    text-align: center;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    margin-left: 3px;
+    vertical-align: middle;
+    border-top: .5vw solid !important;
+    border-right: .5vw solid transparent !important;
+    border-left: .5vw solid transparent !important;
+}
+
+/* line-clamping classes */
+.line-clamp
+{
+    display            : block;
+    display            : -webkit-box;
+    -webkit-box-orient : vertical;
+    position           : relative;
+
+    line-height        : 1.3;
+    overflow           : hidden;
+    text-overflow      : ellipsis;
+    padding            : 0 !important;
+}
+.line-clamp:after
+{
+    /*content    : '...';*/
+    text-align : right;
+    bottom     : 0;
+    right      : -3px;
+    width      : 25%;
+    display    : block;
+    position   : absolute;
+    height     : calc(1em * 1.5);
+    /*background : linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 75%);*/
+}
+@supports (-webkit-line-clamp: 1)
+{
+    .line-clamp:after
+    {
+        display : none !important;
+    }
+}
+.line-clamp-1
+{
+    -webkit-line-clamp : 1;
+    height             : calc(1em * 1.5 * 1);
+}
+.line-clamp-2
+{
+    -webkit-line-clamp : 2;
+    height             : calc(1em * 1.5 * 2);
+}
+.line-clamp-3
+{
+    -webkit-line-clamp : 3;
+    height             : calc(1em * 1.3 * 3);
+}
+.line-clamp-4
+{
+    -webkit-line-clamp : 4;
+    height             : calc(1em * 1.5 * 4);
+}
+.line-clamp-5
+{
+    -webkit-line-clamp : 5;
+    height             : calc(1em * 1.5 * 5);
+}
+
+
+
+
+/* tooltips styles*/
+.my-tool-tip + .tooltip > .tooltip-inner {
+    background-color: #999999;
+    color: #000;
+    border: 1px solid #999999;
+    opacity: 1 !important;
+    font-size: 1vw;
+}
+
+.my-tool-tip + .tooltip.top > .tooltip-arrow {
+    border-top: 5px solid #999999;
+}
+
+.my-tool-tip + .tooltip.left > .tooltip-arrow {
+    border-left: 5px solid #999999;
+}
+
+.my-tool-tip + .tooltip.right > .tooltip-arrow {
+    border-right: 5px solid #999999;
+}
+
+.my-tool-tip + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 5px solid #999999;
+}
+
+@media only screen and (max-width: 768px){
+    .modal-container{
+        width: 40% !important;
+        left: 30% !important;
+        margin: 0 !important;
+    }
+    .modal-content-body-rating{
+        padding-top: 25% !important;
+        margin-bottom: 0% !important;
+    }
+    .modal-content-footer button{
+        font-size: 2vw !important;
+    }
+    .modal-content-body-rating .br-theme-bootstrap-stars .br-widget a{
+        font-size: 3vw !important;
+    }
+    .modal-content-body p{
+        font-size: 2vw !important;
+        margin-top: 3vh;
+        margin-bottom: -.5vh !important;
+    }
+
+    .modal-content-body-user-id{
+        margin-top: 8vh;
+        padding-top: 0 !important;
+    }
+
+    .setting-screen-modal-container .modal-container .modal-content .modal-body h1{
+        font-size: 3vw;
+    }
+    .setting-screen-modal-container .modal-container .modal-content .modal-body p.sub-title{
+        font-size: 2vw;
+    }
+    .setting-screen-modal-container .modal-container .modal-content .modal-body input{
+        font-size: 2vw;
+    }
+    .modal-content-body-row-user-id label{
+        font-size: 2vw;
+    }
+
+    .modal-content-body-row-user-id input{
+        font-size: 2vw;
+    }
+
+    .credit-card-row-inline{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #splash-screen{
+        /* background-image: url("https://i.imgur.com/DO7C4xx.jpg"); */
+    }
+    .splash{
+        /* background-size: 73% 39% !important; */
+    }
+}
+@media only screen and (max-width: 425px){
+    
+    .modal-container{
+        width: 60% !important;
+        left: 20% !important;
+    }
+    .modal-content-body-rating{
+        padding-top: 30% !important;
+        margin-bottom: -6% !important;
+    }
+    .modal-content-footer button{
+        font-size: 3vw !important;
+    }
+    .modal-content-body-rating .br-theme-bootstrap-stars .br-widget a{
+        font-size: 5vw !important;
+    }
+    .modal-content-body p{
+        font-size: 3.5vw !important;
+        margin-top: 3vh;
+        margin-bottom: -.5vh !important;
+    }
+
+    .modal-content-body-user-id{
+        margin-top: 7vh;
+        padding-top: 0 !important;
+    }
+
+    .setting-screen-modal-container .modal-container .modal-content .modal-body h1{
+        font-size: 4vw;
+    }
+    .setting-screen-modal-container .modal-container .modal-content .modal-body p.sub-title{
+        font-size: 3vw;
+    }
+    .setting-screen-modal-container .modal-container .modal-content .modal-body input{
+        font-size: 3vw;
+    }
+
+    .modal-content-body-row-user-id label{
+        font-size: 3.5vw;
+    }
+
+    .modal-content-body-row-user-id input{
+        font-size: 3vw;
+    }
+
+    .credit-card-row-inline{
+        width: 48%;
+    }
+
+    #splash-screen{
+        /* background-image: url("https://i.imgur.com/YNEYu6o.png"); */
+        /* background-image: url('app/images/layout2/teletica_tv_splash_screen_bg_tablet.jpg'); */
+    }
+}

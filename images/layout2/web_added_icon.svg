@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-609.000000, -654.000000)" fill="#996699">
+            <g id="Group-190-copy" transform="translate(-1.000000, 85.000000)">
+                <g id="Group-3" transform="translate(610.000000, 565.000000)">
+                    <g id="favorite-heart-button" transform="translate(0.000000, 4.000000)">
+                        <path d="M7.5,14.1984323 L6.45,13.119037 C2.55,9.57245241 0,7.18236282 0,4.25257559 C0,1.862486 1.8,0.0120940649 4.125,0.0120940649 C5.4,0.0120940649 6.675,0.628891377 7.5,1.63118701 C8.325,0.628891377 9.6,0.0120940649 10.875,0.0120940649 C13.2,0.0120940649 15,1.862486 15,4.25257559 C15,7.18236282 12.45,9.57245241 8.55,13.119037 L7.5,14.1984323 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

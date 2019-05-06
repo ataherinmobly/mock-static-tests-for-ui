@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>favorite-heart-button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-736.000000, -654.000000)" fill="#000000">
+            <g id="Group-190-copy" transform="translate(-1.000000, 85.000000)">
+                <g id="Group-7" transform="translate(372.000000, 552.000000)">
+                    <g id="Group-3" transform="translate(365.430793, 13.000000)">
+                        <g id="favorite-heart-button" transform="translate(0.000000, 4.000000)">
+                            <path d="M7.48833593,14.1984323 L6.4399689,13.119037 C2.54603421,9.57245241 0,7.18236282 0,4.25257559 C0,1.862486 1.79720062,0.0120940649 4.11858476,0.0120940649 C5.39160187,0.0120940649 6.66461897,0.628891377 7.48833593,1.63118701 C8.31205288,0.628891377 9.58506998,0.0120940649 10.8580871,0.0120940649 C13.1794712,0.0120940649 14.9766719,1.862486 14.9766719,4.25257559 C14.9766719,7.18236282 12.4306376,9.57245241 8.53670295,13.119037 L7.48833593,14.1984323 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
